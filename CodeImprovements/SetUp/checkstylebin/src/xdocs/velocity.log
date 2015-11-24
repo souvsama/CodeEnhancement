@@ -1,0 +1,85 @@
+Sat Apr 18 10:45:26 EST 2009  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
+Sat Apr 18 10:45:26 EST 2009   [info] ************************************************************** 
+Sat Apr 18 10:45:26 EST 2009   [info] Starting Jakarta Velocity v1.4
+Sat Apr 18 10:45:26 EST 2009   [info] RuntimeInstance initializing.
+Sat Apr 18 10:45:26 EST 2009   [info] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+Sat Apr 18 10:45:26 EST 2009   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Sat Apr 18 10:45:26 EST 2009   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Sat Apr 18 10:45:26 EST 2009   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Sat Apr 18 10:45:26 EST 2009   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Apr 18 10:45:26 EST 2009   [info] FileResourceLoader : initialization starting.
+Sat Apr 18 10:45:26 EST 2009   [info] FileResourceLoader : adding path 'C:\oliver\play\checkstyle-v5\src\xdocs\stylesheets'
+Sat Apr 18 10:45:26 EST 2009   [info] FileResourceLoader : initialization complete.
+Sat Apr 18 10:45:26 EST 2009   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Sat Apr 18 10:45:26 EST 2009   [info] Default ResourceManager initialization complete.
+Sat Apr 18 10:45:26 EST 2009   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Sat Apr 18 10:45:26 EST 2009   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Sat Apr 18 10:45:26 EST 2009   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Sat Apr 18 10:45:26 EST 2009   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Sat Apr 18 10:45:26 EST 2009   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Sat Apr 18 10:45:26 EST 2009   [info] Created: 20 parsers.
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : initialization starting.
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : adding VMs from VM library template : VM_global_library.vm
+Sat Apr 18 10:45:26 EST 2009  [error] ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro :  VM library template macro registration complete.
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : messages on  : VM system will output logging messages
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : initialization complete.
+Sat Apr 18 10:45:26 EST 2009   [info] Velocity successfully started.
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #table( table ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #tr( tr trclass ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #td( value trclass ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #th( value ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #projectanchor( name value indent ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #metaauthor( author email ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #image( value ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #source( value ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #subsection( subsection ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #titleSection( titleSection ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #section( section ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #makeNavigationMenu( menu indentStr ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #makeNavigationBar( ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #printMeta( metaElement ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009   [info] Velocimacro : added new VM : #document( ) : source = site.vsl
+Sat Apr 18 10:45:26 EST 2009  [error] VM #tr: error : too few arguments to macro. Wanted 2 got 0
+Sat Apr 18 10:45:26 EST 2009  [error] VM #td: error : too few arguments to macro. Wanted 2 got 0
+Sat Apr 18 10:45:26 EST 2009  [error] VM #th: error : too few arguments to macro. Wanted 1 got 0
+Sat Apr 18 10:45:26 EST 2009  [error] VM #makeNavigationMenu: error : too few arguments to macro. Wanted 2 got 0
+Sat Apr 18 10:45:26 EST 2009   [info] ResourceManager : found site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : table : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : tr : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : td : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : th : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : projectanchor : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : metaauthor : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : image : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : source : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : titleSection : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : makeNavigationMenu : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : makeNavigationBar : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : printMeta : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Sat Apr 18 10:45:26 EST 2009   [info] ResourceManager : found site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : table : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : tr : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : td : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : th : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : projectanchor : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : metaauthor : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : image : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : source : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : titleSection : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : makeNavigationMenu : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : makeNavigationBar : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : printMeta : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Sat Apr 18 10:45:27 EST 2009   [info] ResourceManager : found site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Apr 18 10:45:27 EST 2009   [warn] org.apache.velocity.runtime.exception.ReferenceException: reference : template = site.vsl [line 2,column 41] : $au.getAttributeValue("email") is not a valid reference.
